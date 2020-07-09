@@ -1,7 +1,16 @@
+# Header titles
 key_header_names = ["Company", "Last", "Change", "Min", "Max"]
-key_content_names = ["last", "change", "min", "max"]
+
+# space between each title
 key_header_width = [47, 9, 10, 10, 10]
+
+# all the keys of the attribute
+key_content_names = ["last", "change", "min", "max"]
+
+# space between each value
 key_content_width = [10, 10, 10, 10, 10]
+
+# build a header of the table
 
 
 def displayHead():
